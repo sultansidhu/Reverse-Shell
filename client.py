@@ -4,8 +4,8 @@ import os
 import subprocess
 
 sockett = socket.socket()
-host = "192.168.1.13"  # this is dynamic IP (for now at least, August 24, 2018)
-port = 9998
+host = "159.203.13.22"  # This is static IP from a DigitalOcean server
+port = 9999
 
 sockett.connect((host, port))
 
