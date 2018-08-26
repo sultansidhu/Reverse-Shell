@@ -102,7 +102,7 @@ def show_all_connections():
             del all_connections[i]
             del all_addresses[i]
             continue
-        resultss = str(i) + "  |  " + str(all_addresses[i][0]) + "  |  " + str(all_addresses[i][1]) + "\n"
+        resultss = resultss + str(i) + "  |  " + str(all_addresses[i][0]) + "  |  " + str(all_addresses[i][1]) + "\n"
     print("-----Clients------" + "\n" + resultss)
 
 
